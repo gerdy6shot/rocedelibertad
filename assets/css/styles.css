@@ -266,3 +266,17 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
   .trade{grid-template-columns:1fr}
   .contactCard{grid-template-columns:1fr}
 }
+/* HERO IMAGE FIX */
+.bottleFrame_panel {
+  overflow: hidden;
+}
+.hero_image {
+  width: 100%;
+  display: block;
+  object-fit: cover;      /* fills frame nicely (no stretching) */
+  object-position: center;/* centers bottle */
+  border-radius: 12px;
+}
+.bottleFrame_panel {
+  height: 480px;  /* try 420–560 until it feels right */
+}
